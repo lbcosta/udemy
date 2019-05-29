@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import Familia from './components/Familia'
 import FamiliaFuncional from './components/FamiliaFuncional'
 import Membro from './components/Membro'
+import Contador from './components/Contador/Contador'
 
 ReactDOM.render(
     <>
@@ -12,6 +13,7 @@ ReactDOM.render(
         <Membro nome='Thomaz'/>
     </Familia>
     <FamiliaFuncional membros={['Claudio', 'Marcela', 'Thomaz']} sobrenome='Funcional'/>
+    <Contador />
     </>
 , document.getElementById('root'))
 
